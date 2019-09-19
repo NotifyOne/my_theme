@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function my_theme_theme() {
+  return [
+    'custom_list' => [
+      'variables' => [
+        'title' => '',
+
+        'list_items' => [
+          [
+            'title' => '',
+            'author' => '',
+            'description' => ''
+          ],
+        ]
+
+      ],
+    ],
+
+  ];
+}

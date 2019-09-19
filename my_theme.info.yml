@@ -1,0 +1,5 @@
+name: My Theme
+type: module
+description: "My Theme module for practic."
+core: 8.x
+package: Custom
