@@ -1,0 +1,6 @@
+my_theme.list_test:
+  path: '/practic'
+  defaults:
+    _controller: '\Drupal\my_theme\Controller\Practic::simple'
+  requirements:
+    _permission: 'access content'
