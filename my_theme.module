@@ -13,9 +13,9 @@ function my_theme_theme() {
           [
             'title' => '',
             'author' => '',
-            'description' => ''
+            'description' => '',
           ],
-        ]
+        ],
 
       ],
     ],
