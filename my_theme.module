@@ -4,7 +4,7 @@
  * Implements hook_theme().
  */
 function my_theme_theme() {
-  return [
+  return array(
     'custom_list' => [
       'variables' => [
         'title' => '',
@@ -18,7 +18,8 @@ function my_theme_theme() {
         ],
 
       ],
+      'template' => 'custom_list_template',
+      'render element' => 'element',
     ],
-
-  ];
+  );
 }
