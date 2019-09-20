@@ -30,7 +30,7 @@ class Practic extends ControllerBase {
 
   function type() {
     $build =  [
-      '#theme' => 'custom_list',
+      '#type' => 'custom_list',
       '#title' => t('List Title'),
       '#list_items' => [
         [
@@ -48,5 +48,4 @@ class Practic extends ControllerBase {
 
     return $build;
   }
-
 }
