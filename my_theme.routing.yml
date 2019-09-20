@@ -4,3 +4,10 @@ my_theme.list_test:
     _controller: '\Drupal\my_theme\Controller\Practic::simple'
   requirements:
     _permission: 'access content'
+
+my_theme.list_type:
+  path: '/practic_type'
+  defaults:
+    _controller: '\Drupal\my_theme\Controller\Practic::type'
+  requirements:
+    _permission: 'access content'
