@@ -3,11 +3,17 @@
 namespace Drupal\my_theme\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
-use Drupal\Core\Render\Element;
-use Drupal\Component\Utility\Variable;
 
+/**
+ * Class Practic.
+ *
+ * @package Drupal\my_theme\Controller
+ */
 class Practic extends ControllerBase {
 
+  /**
+   * Build list by #theme.
+   */
   function simple() {
     return [
       '#theme' => 'custom_list',
@@ -28,6 +34,9 @@ class Practic extends ControllerBase {
 
   }
 
+  /**
+   * Build list by #type.
+   */
   function type() {
     $build =  [
       '#type' => 'custom_list',
