@@ -2,7 +2,7 @@
 # at examples/render_example/arrays. See how asset libraries are attached to
 # render arrays by reading the example code in
 # Drupal\render_example\Controller\RenderExampleController::arrays().
-my-theme.css:
+my-theme.customList:
   version: 1.x
   css:
     theme:
