@@ -1,7 +1,7 @@
 my_theme.list_test:
   path: '/practic'
   defaults:
-    _controller: '\Drupal\my_theme\Controller\Practic::simple'
+    _controller: '\Drupal\my_theme\Controller\PracticController::simple'
     _title: 'Practic test. Build list by #theme'
   requirements:
     _permission: 'access content'
@@ -9,7 +9,7 @@ my_theme.list_test:
 my_theme.list_type:
   path: '/practic_type'
   defaults:
-    _controller: '\Drupal\my_theme\Controller\Practic::type'
+    _controller: '\Drupal\my_theme\Controller\PracticController::type'
     _title: 'Practic test. Build list by #type'
   requirements:
     _permission: 'access content'
