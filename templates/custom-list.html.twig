@@ -12,19 +12,14 @@
  */
 #}
 {{ attach_library('my_theme/my-theme.customList') }}
-
 <div class="custom-list">
   {% if title %}
     <h3>{{ title }}</h3>
   {% endif %}
 
   {% for item in list_items %}
-    <div class="custom-list--wrap">
-      <h3>{{ item.title }}</h3>
-      <i>{{ item.author }}</i>
-      <div class="custom-list--description">
-        {{ item.description }}
-      </div>
-    </div>
+    {% block listItemsBlock %}
+
+    {% endblock %}
   {% endfor %}
 </div>
