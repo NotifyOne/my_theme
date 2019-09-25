@@ -39,7 +39,7 @@ use Drupal\Core\Render\Element\RenderElement;
  *
  * @RenderElement("custom_list")
  */
-class custom_list extends RenderElement {
+class customListElement extends RenderElement {
 
   /**
    * {@inheritdoc}
