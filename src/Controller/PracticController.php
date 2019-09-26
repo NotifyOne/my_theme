@@ -17,14 +17,16 @@ class PracticController extends ControllerBase {
   private function listItemsExample(){
     return [
       [
-        'title' => $this->t('Test 1'),
-        'author' => $this->t('Author 1'),
-        'description' => $this->t('Description 1'),
+        '#theme' => 'list_items',
+        '#title' => $this->t('Test 1'),
+        '#author' => $this->t('Author 1'),
+        '#description' => $this->t('Description 1'),
       ],
       [
-        'title' => $this->t('Test 2'),
-        'author' => $this->t('Author 2'),
-        'description' => $this->t('Description 2'),
+        '#theme' => 'list_items',
+        '#title' => $this->t('Test 2'),
+        '#author' => $this->t('Author 2'),
+        '#description' => $this->t('Description 2'),
       ],
     ];
   }

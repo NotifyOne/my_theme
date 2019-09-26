@@ -9,17 +9,17 @@ function my_theme_theme() {
       'variables' => [
         'title' => '',
 
-        'list_items' => [
-          [
-            'title' => '',
-            'author' => '',
-            'description' => '',
-          ],
-        ],
+        'list_items' => [],
 
       ],
-      'template' => 'custom-list--item',
-      'render element' => 'element',
+    ],
+
+    'list_items' => [
+      'variables' => [
+        'title' => '',
+        'author' => '',
+        'description' => '',
+      ],
     ],
   );
 }
